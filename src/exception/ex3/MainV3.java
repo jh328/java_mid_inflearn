@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class MainV3 {
     public static void main(String[] args)  {
-        NetworkServiceV3_1 sv = new NetworkServiceV3_1();
+//        NetworkServiceV3_1 sv = new NetworkServiceV3_1();
+        NetworkServiceV3_2 sv = new NetworkServiceV3_2();
 
         Scanner sc = new Scanner(System.in);
         // 메세지를 계속 받을꺼다.
